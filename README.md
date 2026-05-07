@@ -18,11 +18,13 @@ Ensure you have Python 3.8+ installed. You will also need the following librarie
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/your-username/mars-mips-parser.git](https://github.com/mohamed2612001/mips-assembly-extractor.git)
-   cd mars-mips-parser
+   cd mars-mips-parser```
+   
 Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
 Prepare your data:
 
 Export your Text Segment dump from MARS simulator as a .txt file.
@@ -33,4 +35,5 @@ Run the script:
 
 ```Bash
 python mars_parser.py
+```
 The script will generate a parsed_data.xlsx file in your specified directory.
