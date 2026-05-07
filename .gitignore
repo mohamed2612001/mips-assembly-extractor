@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Ignore generated Excel output files
+*.xlsx
+*.csv
+
+# Ignore raw memory dump files
+*.txt
